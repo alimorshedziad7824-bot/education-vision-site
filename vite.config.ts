@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/education-vision/',
+    base: '/education-vision-site/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
